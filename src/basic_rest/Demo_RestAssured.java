@@ -32,7 +32,9 @@ public class Demo_RestAssured {
 			"\"key\":\"qaclick123\"\r\n" + 
 			"}").when().put("maps/api/place/update/json").then().log().all().assertThat().statusCode(200).body("msg", equalTo("Address successfully updated"));
 	
+
 	System.out.println("Asian time zone");
+
 
 	}
 
