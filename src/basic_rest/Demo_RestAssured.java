@@ -34,7 +34,7 @@ public class Demo_RestAssured {
 	
 
 	System.out.println("Asian time zone");
-
+	System.out.println("US time zone");
 
 	}
 
